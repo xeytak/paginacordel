@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+html, body{
+    margin: 0px 0px;
+    min-height: 100vh;
+    color: rgb(88, 87, 87);
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 250px;
+    border: 0px;   
+}
+
+header > h1{
+    text-align: center;
+    margin: 0px;
+    padding: 50px;
+    font-size: 10vh;
+    font-family:  'Passion One', cursive;
+    letter-spacing: 2.5px;
+}
+
+header > p{
+    margin: 0px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 80px 60px;   
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    color: black;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: 'Sriracha', cursive;
+    font-size: 4vh;
+}
+
+section.normal{
+    background-color: white;
+}
+
+section.imagem{
+    background-color: cadetblue;
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 4px;
+    display: inline-block;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+section#img1{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img2{
+    background-image: url('../imagens/background002.jpg');
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: black;
+    margin: 0px;
+    padding: 10px; 
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 2.5vh;
+    border: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: rgba(92, 175, 175, 0.863);
+}
+
